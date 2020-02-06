@@ -1,0 +1,115 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
+  background-color: #2686f5;
+}
+.container {
+  width: 500px;
+  margin: 50px auto;
+}
+.row {
+  display: block;
+  margin: 20px 0;
+}
+.form-group {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 35px;
+}
+.submitter {
+  display: inline;
+}
+.btn {
+  padding: 10px;
+  background-color: white;
+  border: 1px;
+  margin-left: 10px;
+}
+.form-group > label {
+  text-transform: uppercase;
+  padding: 10px;
+  color: white;
+  font-weight: 600;
+}
+.form-group > .form-control {
+  outline: none;
+  width: 300px;
+}
+.task-page-title {
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  line-height: 1.4;
+  letter-spacing: 1.5px;
+  color: white;
+  font-weight: 600;
+  margin-bottom: 50px;
+  font-size: 40px;
+}
+.task-list {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+.task-list-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style-image: none;
+  border-color: grey;
+  border-style: solid;
+  border-width: 1px 1px 0px 1px;
+  padding: 15px 28px;
+  background-color: white;
+}
+.status-complete {
+  text-decoration-line: line-through;
+  color: #666;
+}
+.status-pending {
+  color: black;
+}
+.status-current {
+  text-decoration-line: line-through;
+  color: #666;
+}
+.task-list-item:last-of-type {
+  border-width: 1px;
+}
+.task-list-item:hover {
+  cursor: pointer;
+}
+.loader {
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin: 30px auto;
+}
+.message-empty {
+  font-size: 14px;
+  text-align: center;
+  color: white;
+  max-width: 300px;
+  margin: 20px auto;
+}
+.title {
+  align-self: flex-start;
+  width: 80%;
+}
+.icon-check {
+  color: #777;
+}
+.icon-check:hover {
+  color: green;
+}
+.icon-rm {
+  text-align: right;
+  margin-right: 0;
+  right: 0;
+  color: #777;
+}
+.icon-rm:hover {
+  color: red;
+}
