@@ -32,7 +32,7 @@ const addTask = (task) => {
     const data = JSON.stringify({ "tasks": arr });
     fs.writeFileSync(DATABASE, data);
   } catch(err) {
-    console.log('Error saving tasks: ', error);
+    console.log('Error saving tasks: ', err);
     return;
   }
 }

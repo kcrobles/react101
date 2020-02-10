@@ -48,7 +48,7 @@ function App() {
                 {tasks &&
                   tasks.map(task => {
                     return (
-                      <li className="task-list-item" key="{ task.id }">
+                      <li className={`task-list-item status-${task.status}`} key="{ task.id }">
                         <span className="icon-check">
                           <i
                             className="fa fa-check-circle-o"

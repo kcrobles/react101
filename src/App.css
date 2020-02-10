@@ -64,14 +64,14 @@ body {
   padding: 15px 28px;
   background-color: white;
 }
-.status-complete {
+.status-COMPLETE {
   text-decoration-line: line-through;
   color: #666;
 }
-.status-pending {
+.status-PENDING {
   color: black;
 }
-.status-current {
+.status-CURRENT {
   text-decoration-line: line-through;
   color: #666;
 }
